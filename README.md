@@ -17,10 +17,11 @@
 
 你只需要启动一次后端服务，然后用浏览器打开 `<服务器IP>:8000`（默认），就能完成 **搜索、浏览、收藏、历史、阅读、批量下载与打包 JMComic 漫画** 等操作😆
 
-<img width="1919" height="1030" alt="电脑端" src="https://github.com/user-attachments/assets/53b48077-9766-4175-aa2f-e366ff471e8d" />
+<center><img width="1919" height="1030" alt="电脑端" src="https://github.com/user-attachments/assets/53b48077-9766-4175-aa2f-e366ff471e8d" /></center>
+<center>电脑端界面</center>
 
-<img width="1919" height="1030" alt="手机/平板端" src="https://github.com/user-attachments/assets/5e8f4d7d-0a76-4f4b-aafc-0b5808268123" />
-
+<center><img width="691" height="954" alt="image" src="https://github.com/user-attachments/assets/3c803d27-5232-497f-85d6-478197e3bf7a" /></center>
+<center>手机/平板端界面</center>
 
 项目结构很简单：
 
